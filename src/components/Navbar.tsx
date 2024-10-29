@@ -8,17 +8,17 @@ const Navbar = () => {
         <div className="flex items-center gap-3">
           <Menu className="w-5 h-5" />
           <Image
-            src={"/assets/logo.png"}
-            width={200}
-            height={200}
-            alt="Strategy dot zero"
+            src={"/assets/Aarogya_Ganit_Logo-removebg-preview.png"}
+            width={150}
+            height={150}
+            alt="Aarogya Ganit"
           />
         </div>
         <div className=" flex items-center space-x-6">
           <Bell className="w-5 h-5 fill-slate-100" />
 
           <div className="flex items-center gap-2">
-            Patrick McCreanor
+            Swadeep Singh
             <ChevronDown className="w-5 h-5" />
           </div>
         </div>
