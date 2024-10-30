@@ -3,6 +3,7 @@ import { Roboto } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/footer";
 import Sidebar from "@/components/sidebar/sidebar";
 
 const roboto = Roboto({
@@ -25,6 +26,7 @@ export default function RootLayout({
         <Toaster />
         <Navbar />
         <Sidebar />
+        <Footer />
         <div className="ml-[250px]">{children}</div>
       </body>
     </html>
