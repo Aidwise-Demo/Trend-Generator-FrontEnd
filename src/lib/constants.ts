@@ -9,5 +9,5 @@ export const trends = [
 ];
 
 // export const BASE_URL = "http://127.0.0.1:8000";
-export const BASE_URL = "https://trend-generator-backend-1.onrender.com";
+export const BASE_URL = "https://api.trend-generator.aidwise.in";
 
